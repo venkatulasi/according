@@ -12,7 +12,9 @@ const showHideAnswer = ()=>{
     <>
     <div className="question">        
         <h2>{question}</h2>
-            <button className ="btn" onClick={showHideAnswer}>{showAnswer?"➖":"➕"}</button>
+        <button className ="btn" onClick={showHideAnswer}>
+          {showAnswer?"➖":"➕"}
+        </button>
     </div>
     <div className="answers">
          {showAnswer &&<p>{answer}</p>}
