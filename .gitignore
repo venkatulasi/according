@@ -1,0 +1,8 @@
+node_modules
+src/components/imges/
+src/components/BasicForm.js
+src/components/Child.js
+src/components/Parent.js
+src/components/SimpleInput.js
+src/components/Star.js
+src/memesData.js

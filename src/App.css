@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  font-size: 3rem;
+  margin: 1em 0;
+}
+.container{
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.accordionBlock{
+  width: 50%;
+  /* background-color: beige; */
+}
+.question{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5em 1em;
+  width: 80%;
+  background-color: rgb(75,1,47);
+  margin:0 auto ;
+  margin-bottom: .2em;
+  border-radius: .5em;
+}
+.question h2{
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.answers p{
+  font-size: 1.5rem;
+  background-color: #fff;
+  width: 70%;
+  margin: 0 auto;
+  padding: .2em;
+  text-align: center;
+} 
+.btn{
+  border-radius: 20px;
+}
